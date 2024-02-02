@@ -1,0 +1,81 @@
+html {
+    background-color: #EECCFF;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+h1 {
+    padding-top: 20px;
+    color: #725264;
+    text-align: center;
+}
+
+
+.buttons_Container{
+    display: grid;
+    grid-template-columns: 80px 80px 80px 80px ;
+    grid-template-rows: 80px 80px 80px 80px ;
+    grid-column-gap: 30px;
+    grid-row-gap: 10px;
+    text-align: center;
+    
+    margin: 0 auto; 
+    padding-top: 30px;
+    width: fit-content;
+    
+}
+
+.numberBtn, .operatorBtn, .clearbtn, .eqlBtn {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    background-color: #F6E1DA;
+   
+    font-size: 25px;
+    color: #725264;
+    text-align: center;
+    border: none;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    
+
+}
+
+.eqlBtn {
+    background-color: #E3ACCB;
+}
+
+.calculatorSpace {
+    height: 550px;
+    width: 473px;
+    align-items: center;
+    text-align: center;
+    background-color: #F9F9F9;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+
+.calculator {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    padding: 10px
+}
+
+#solutionSpace {
+    width: 404px;
+    height: 105px;
+    background-color: #F0C0DB;
+    margin-left: 37px;
+    margin-top: 25px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+#screen {
+    padding-top: 25px;
+    padding-right: 10px;
+    font-size: 40px;
+    text-align: right;
+}
